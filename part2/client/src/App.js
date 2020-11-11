@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import NotFound from "./views/NotFound";
 import NewProduct from "./views/NewProduct";
 import Products from "./views/Products";
+import Product from "./views/Product";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Redirect from="/" to="/products" noThrow="true" />
         <NewProduct path="/products/new" />
         <Products path="/products" />
+        <Product path="/products/:id" />
 
 
         {/* if any URL visited is not found, it will defaul to the NotFound display */}
