@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 // import components and views
 import NotFound from "./views/NotFound";
 import NewProduct from "./views/NewProduct";
+import Products from "./views/Products";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         {/* nothrow means not to throw an error when the redirect actually happens. Since we haven't set up /products yet, it will go to NotFound */}
         <Redirect from="/" to="/products" noThrow="true" />
         <NewProduct path="/products/new" />
+        <Products path="/products" />
 
 
         {/* if any URL visited is not found, it will defaul to the NotFound display */}

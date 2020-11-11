@@ -41,7 +41,7 @@ const NewProduct = (props) => {
     /////////////////////////////////////
     return (
     <div className="container text-center">
-        <h1>Product Manager</h1>
+        <h3>Product Manager</h3>
         <form onSubmit={ (e) => {
             handleSubmit(e); 
             }}
