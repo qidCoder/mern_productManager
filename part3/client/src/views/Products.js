@@ -75,6 +75,11 @@ const Products = (props) => {
                         <button 
                         className="btn btn-outline-danger"
                         onClick={ e => {handleDelete(product._id)}}>Delete this product</button>
+
+                        {/* link to update */}
+                        <div className="btn btn-outline-success">
+                            <Link to={"/products/update/" + product._id}>Click to Update</Link>
+                        </div>
                     </div>
                 );
             })

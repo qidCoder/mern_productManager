@@ -21,7 +21,7 @@ const Product = (props) => {
 
     }, [props.id]);
 
-    //funtion to handle the button that will delete a product
+    //function to handle the button that will delete a product
     function handleDelete(delete_id){
         //to delete from the database, we will run the delete URL we defined
         Axios.delete(`http://localhost:8000/api/products/${delete_id}`)
@@ -53,6 +53,8 @@ const Product = (props) => {
                     <button 
                         className="btn btn-outline-danger"
                         onClick={ e => {handleDelete(product._id)}}>Delete this product</button>
+
+
 
                 
                 </div>

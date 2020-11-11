@@ -8,6 +8,7 @@ import NotFound from "./views/NotFound";
 import NewProduct from "./views/NewProduct";
 import Products from "./views/Products";
 import Product from "./views/Product";
+import UpdateProduct from "./views/UpdateProduct";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <NewProduct path="/products/new" />
         <Products path="/products" />
         <Product path="/products/:id" />
+        <UpdateProduct path="/products/update/:id" />
 
 
         {/* if any URL visited is not found, it will defaul to the NotFound display */}
