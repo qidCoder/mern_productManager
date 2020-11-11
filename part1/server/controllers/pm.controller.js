@@ -11,6 +11,7 @@ module.exports = {
 
         Product.create(req.body)
         .then( (product) => {
+            console.log("product created:", product)
             //we get back the product that was created by the databas and respond with JSON and pass back that product
             //product is the product from the DB now, which has a DB _id, createdAt, etc...
             //send it back in the response to the client
