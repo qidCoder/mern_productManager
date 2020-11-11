@@ -1,7 +1,7 @@
 ## Product Manager (Part I)
 Create a full stack MERN project that will become a complete product manager.
 
-![assignment image](https://github.com/qidCoder/mern_productManagerPart1/blob/main/assignment.png?raw=true)
+![assignment image](https://github.com/qidCoder/mern_productManager/blob/main/part1/assignment.png?raw=true)
 
 
 Note: We will be using this project for the next couple of assignments as well, so keep that in mind as you are building it.
